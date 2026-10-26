@@ -4,5 +4,5 @@ jobs:
   Explore-GitHub-Actions:
   runs-on: ubuntu-latest
   steps:
-    - name: Print the trig event
-    run: echo"the jobs was trig by ${{github.event_name}}."
+        - name: Printaaa
+        run: echo "job was triggered by ${{github.ref}}."
