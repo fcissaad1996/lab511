@@ -2,7 +2,7 @@ name: GitHub Actions Demo
 on: push
 jobs:
   Explore-GitHub-Actions:
-  runs-on: ubuntu-latest
-  steps:
-        - name: Printaaa
+    runs-on: ubuntu-latest
+    steps:
+      - name: Printaaa
         run: echo "job was triggered by ${{github.ref}}."
